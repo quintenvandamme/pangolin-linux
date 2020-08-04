@@ -7,7 +7,7 @@ BACKTITLE="install.sh"
 TITLE="install.sh"
 MENU="Choose distro:"
 
-OPTIONS=(1 "Deabian/Ubuntu"
+OPTIONS=(1 "Debian/Ubuntu"
          2 "linux mint 20"
          3 "Arch")
 
