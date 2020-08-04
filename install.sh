@@ -8,8 +8,7 @@ TITLE="install.sh"
 MENU="Choose distro:"
 
 OPTIONS=(1 "Deabian/Ubuntu"
-         2 "linux mint 20"
-         3 "Arch")
+         2 "linux mint 20")
 
 CHOICE=$(dialog --clear \
                 --backtitle "$BACKTITLE" \
@@ -51,10 +50,6 @@ case $CHOICE in
             echo Pangolin is installed   
 
             ;;
-        3)
-            curl -s https://raw.githubusercontent.com/HexaOneOfficial/pangolin-linux/master/arch.sh | sh  
-
-            ;;            
-
+       
 esac
 
