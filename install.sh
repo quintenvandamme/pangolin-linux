@@ -7,8 +7,8 @@ BACKTITLE="install.sh"
 TITLE="install.sh"
 MENU="Choose distro:"
 
-OPTIONS=(1 "Deabian/Ubuntu"
-         2 "linux mint 20")
+OPTIONS=( 1 "Deabian/Ubuntu"
+          2 "linux mint 20" )
 
 CHOICE=$(dialog --clear \
                 --backtitle "$BACKTITLE" \
