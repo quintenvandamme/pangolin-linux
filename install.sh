@@ -4,6 +4,7 @@
             sudo rm /etc/apt/preferences.d/nosnap.pref
             sudo apt install snapd
             sudo snap install flutter --classic
+            wget https://github.com/HexaOneOfficial/pangolin-linux/releases/download/201004/Pangolin.zip
             sudo cp Pangolin.zip /
             cd /
             sudo unzip Pangolin.zip
