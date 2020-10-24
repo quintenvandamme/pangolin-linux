@@ -11,4 +11,5 @@
             sudo rm Pangolin.zip
             cd ~/pangolin-linux
             sudo cp Pangolin.desktop /usr/share/xsessions/
+            sudo cp patch.sh /dahlia/pangolin_desktop/
             echo Pangolin is installed   
