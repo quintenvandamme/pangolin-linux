@@ -1,6 +1,33 @@
 # pangolin-linux
 pangolin desktop running on debian based systems
 
+## requirements
+
+### debian/ubuntu
+
+- If you don't have git installed do it by ```sudo apt install git```
+
+- Install flutter
+```git clone https://github.com/flutter/flutter.git```
+```cd flutter/ && sudo export PATH="$PATH:`pwd`/flutter/bin"```
+
+Then open .bashrc and add this line to it
+```export PATH="$PATH:[~/flutter/]/flutter/bin"```.
+
+Open a new terminal and verify that the flutter/bin directory is now in your PATH by running
+```sudo echo $PATH```.
+
+- Install matchbox-window-manager
+```sudo apt install -y matchbox-window-manager```
+
+### arch
+
+- install flutter
+```yay flutter```
+
+- install matchbox-window-manager
+```sudo pacman -S matchbox-window-manager```
+
 ## install
 
 if your using something other than linuxmint you will get a nosnap error. this won't effect anything.
