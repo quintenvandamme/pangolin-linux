@@ -14,8 +14,8 @@ pangolin desktop running on debian based systems
 Then open .bashrc and add this line to it
 ```export PATH="$PATH:[~/flutter/]/flutter/bin"```.
 
-Open a new terminal and verify that the flutter/bin directory is now in your PATH by running
-```sudo echo $PATH```.
+Open a new terminal and Verify that the flutter command is available by running
+```which flutter```.
 
 - Install matchbox-window-manager
 ```sudo apt install -y matchbox-window-manager```
