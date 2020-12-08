@@ -1,5 +1,5 @@
-# pangolin-linux
-pangolin desktop running on debian based systems
+# Pangolin-linux
+pangolin desktop running on linux systems
 
 ## requirements
 
@@ -18,12 +18,12 @@ Open a new terminal and Verify that the flutter command is available by running
 ```which flutter```.
 
 - Install matchbox-window-manager
-```sudo apt install -y matchbox-window-manager```
+```sudo apt install matchbox-window-manager```
 
 ### arch
 
 - Install flutter 
-```yay flutter``` first option
+```yay -S flutter```
 
 - Install matchbox-window-manager
 ```sudo pacman -Sy matchbox-window-manager```
