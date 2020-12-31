@@ -83,7 +83,7 @@ FILE=/usr/share/xsessions/Pangolin.desktop
 if [ -f "$FILE" ]; then
     echo "no errors occurred"
 else
-    echo "an errors has occurred"
+    echo "an error has occurred"
 fi
 
 
