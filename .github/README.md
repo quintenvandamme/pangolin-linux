@@ -7,7 +7,7 @@ Pangolin Desktop running on Linux systems.
 
 - install git and matchbox-window-manager unzip
 ```
-sudo apt install git matchbox-window-manager
+sudo apt install git matchbox-window-manager unzip
 ```
 - Install flutter
 
@@ -27,7 +27,7 @@ which flutter
 
 - Install flutter and matchbox-window-manager unzip
 ```
-yay -S flutter matchbox-window-manager
+yay -S flutter matchbox-window-manager unzip
 ```
 ## Installation
 
