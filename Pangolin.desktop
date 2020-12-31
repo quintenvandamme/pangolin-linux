@@ -1,8 +1,0 @@
-#!/usr/bin/env xdg-open
-[Desktop Entry]
-Name=Pangolin
-Comment=This session logs you into pangolin
-Exec=/dahlia/pangolin_desktop/pangolin_desktop
-TryExec=/dahlia/pangolin_desktop/pangolin_desktop
-Icon=/dahlia/dahlia.ico
-Type=Application
