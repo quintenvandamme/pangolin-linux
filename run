@@ -1,0 +1,4 @@
+#!/bin/bash
+
+matchbox-window-manager -use_titlebar no &
+exec /dahlia/pangolin_desktop/pangolin_desktop
