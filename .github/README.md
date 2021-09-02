@@ -5,7 +5,7 @@ Pangolin Desktop running on Linux systems.
 
 ### arch
 
-- Install flutter and matchbox-window-manager unzip
+- Install and matchbox-window-manager unzip
 ```
 yay -S matchbox-window-manager unzip
 ```
