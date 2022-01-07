@@ -19,7 +19,7 @@ sudo apt install git matchbox-window-manager unzip
 ## Installation
 
 ```bash
-git clone https://github.com/hexa-one/pangolin-linux.git
+git clone https://github.com/quintenvandamme/pangolin-linux.git
 cd pangolin-linux && git checkout dev && chmod +x install.sh && sudo ./install.sh
 ```
 - now restart and login with pangolin
