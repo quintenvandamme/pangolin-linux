@@ -6,11 +6,7 @@ if [[ $EUID -ne 0 ]]; then
 fi
 
 sudo cp Pangolin.desktop /usr/share/xsessions/
-sudo cp src.zip / 
-cd
-cd /
-sudo unzip src.zip
-sudo rm src.zip
+sudo cp -r dahlia/ /
 sudo cp run /dahlia
 sudo chmod +x /dahlia/run
 
