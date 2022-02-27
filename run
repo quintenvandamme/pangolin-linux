@@ -1,4 +1,6 @@
 #!/bin/bash
 
-matchbox-window-manager -use_titlebar no &
+feh --bg-center /dahlia/boot-logo.png&
+#matchbox-window-manager -use_titlebar no &
+openbox&
 exec /dahlia/pangolin_desktop/pangolin_desktop
