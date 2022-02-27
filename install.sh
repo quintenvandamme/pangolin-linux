@@ -11,6 +11,8 @@ cd
 cd /
 sudo unzip src.zip
 sudo rm src.zip
+sudo cp run /dahlia
+sudo chmod +x /dahlia/run
 
 FILE=/usr/share/xsessions/Pangolin.desktop
 if [ -f "$FILE" ]; then
